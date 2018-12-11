@@ -116,7 +116,7 @@ int main(int argc, char** argv) {
 	//Turn vacuum gripper on 
 	system("sudo usbrelay BITFT_1=1");        
 
-	//Move robot arm down to drop off toy
+	//Move robot arm down to pick up toy
 	ROS_INFO("Descending to dog toy");
 	tool_pose.pose.position.z = toy_pose_z; 
         xformUtils.printPose(tool_pose);

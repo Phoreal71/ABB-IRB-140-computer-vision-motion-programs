@@ -67,11 +67,6 @@ int main(int argc, char** argv) {
     }
 
     while (ros::ok()) {
-	//Get kong dog toy centroid coordinates from opencv node
-	for(int i = 0; i < 3; i++){
-	  ros::spinOnce();
-	}
-       
 	
 	cout << "Enter 1 to move robot to first calibration point of (0.2, 0.63, 0.018)" << endl;
 	cin >> input;

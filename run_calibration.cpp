@@ -86,7 +86,6 @@ int main(int argc, char** argv) {
           }      
 	}
 
-	// 0.515000 + 0.20, 0.0, 0.711999
 	cout << "Enter '0' to move robot out of camera view" << endl;
 	cin >> input;
 	if(input == 0){
